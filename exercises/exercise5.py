@@ -6,6 +6,18 @@ def sumatoria_basico(n: int) -> int:
 
     Restricción: Utilizar un bucle FOR.
     """
+    suma = 0 
+
+    for numero in range (1, n + 1):
+
+        suma += numero
+    
+    return suma
+
+resultado = sumatoria_basico (1)
+print(f"SUMATORIA BASICO 1 = {resultado}")
+resultado = sumatoria_basico (100)
+print(f"SUMATORIA BASICO 100 = {resultado}")
 
 
 # NO MODIFICAR - INICIO
