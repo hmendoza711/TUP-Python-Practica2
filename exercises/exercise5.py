@@ -65,6 +65,17 @@ def multiplicar_basico(numeros: Iterable[float]) -> float:
         - No utilizar ELSE
     """
 
+    if not numeros:
+        return 0
+
+    multiplicador = 1
+
+    for i in numeros:
+        multiplicador = multiplicador * i
+
+    return multiplicador
+
+
 
 # NO MODIFICAR - INICIO
 assert multiplicar_basico([1, 2, 3, 4]) == 24
