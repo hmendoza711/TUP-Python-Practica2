@@ -36,7 +36,12 @@ def sumatoria_sum(n: int) -> int:
     Referencia: https://docs.python.org/3/library/functions.html#sum
     """
 
+    return sum(range(1,n+1))
 
+resultado = sumatoria_basico (1)
+print(f"SUMATORIA BASICO 1 = {resultado}")
+resultado = sumatoria_basico (100)
+print(f"SUMATORIA BASICO 100 = {resultado}")
 # NO MODIFICAR - INICIO
 assert sumatoria_sum(1) == 1
 assert sumatoria_sum(100) == 5050
