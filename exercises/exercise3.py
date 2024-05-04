@@ -14,22 +14,7 @@ def operacion_basica(a: float, b: float, multiplicar: bool) -> Union[float, str]
         - Utilizar IF con ELIF con ELSE.
         - No utilizar AND ni OR.
     """
-    if multiplicar:
-        resultado = a*b
-    elif b != 0:
-        resultado = a/b
-    else:
-        resultado = "Operacion no valida"
-    return resultado
 
-print(f"Resultado es: {operacion_basica(1, 1, True)}")
-print(f"Resultado es: {operacion_basica(1, 1, False)}")
-print(f"Resultado es: {operacion_basica(25, 5, True)}")
-print(f"Resultado es: {operacion_basica(25, 5, False)}")
-print(f"Resultado es: {operacion_basica(0, 5, True)}")
-print(f"Resultado es: {operacion_basica(0, 5, False)}")
-print(f"Resultado es: {operacion_basica(1, 0, True)}")
-print(f"Resultado es: {operacion_basica(1, 0, False)}")
 
 # NO MODIFICAR - INICIO
 assert operacion_basica(1, 1, True) == 1
@@ -56,21 +41,6 @@ def operacion_multiple(a: float, b: float, multiplicar: bool) -> Union[float, st
         - No utilizar ELIF ni ELSE.
         - No utilizar AND ni OR.
     """
-
-    if multiplicar:
-        return a*b
-    if b!=0:
-        return a/b
-    return "Operacion no valida"
-
-print(f"Resultado es: {operacion_multiple(1, 1, True)}")
-print(f"Resultado es: {operacion_multiple(1, 1, False)}")
-print(f"Resultado es: {operacion_multiple(25, 5, True)}")
-print(f"Resultado es: {operacion_multiple(25, 5, False)}")
-print(f"Resultado es: {operacion_multiple(0, 5, True)}")
-print(f"Resultado es: {operacion_multiple(0, 5, False)}")
-print(f"Resultado es: {operacion_multiple(1, 0, True)}")
-print(f"Resultado es: {operacion_multiple(1, 0, False)}")
 
 
 # NO MODIFICAR - INICIO
