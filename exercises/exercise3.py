@@ -53,6 +53,7 @@ def operacion_multiple(a: float, b: float, multiplicar: bool) -> Union[float, st
     
     if multiplicar:
         return a*b
+    
     if b != 0:
         return a/b
 
